@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Wonderful scrollbars",
+    "description": "Make scrollbars wonderful again!",
+    "developer":
+    {
+        "name": "Blinti"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://*/*"
+                    ],
+                    "css":
+                    [
+                        "modded.css"
+                    ]
+                }
+            ]
+        }
+    },
+    "version": "1.0"
+}
